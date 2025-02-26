@@ -8,7 +8,7 @@ const Hero = () => {
       <h1 className="text-2xl font-bold animate-delay [--delay:0.2s]">Hi, I'm Faza Tegar Balintra</h1>
       <p className="text-lg mt-4 animate-delay [--delay:0.5s]">A Full Stack Developer with a passion for Web Technologies.</p>
       <button className=' bg-white text-black mt-6 px-6 py-2 rounded-lg animate-delay [--delay:0.7s]'>
-      <a href="/projects">View My Work</a>
+      <a href="/projects">View My Works</a>
       </button>
     </section>
   )
