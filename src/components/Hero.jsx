@@ -1,11 +1,15 @@
-import React from 'react'
+import React from 'react';
+import imgCover from '../assets/cover.jpg';
 
 const Hero = () => {
   return (
-    <section id="hero" className="h-screen flex flex-col items-center justify-center text-center p-10 bg-gradient-to-r from-blue-500 to-indigo-600 text-white mx-auto max-w-2xl">
-      <h1 className="text-4xl font-bold animate-text-delay [--delay:0s]">Hi, I'm Faza</h1>
-      <p className="text-lg mt-4 animate-text-delay [--delay:0.3s]" >A Full Stack Developer with a passion for Web Technologies.</p>
-      <a href="#projects" className="mt-6 bg-white text-black px-6 py-2 rounded-lg animate-text-delay [--delay:0.6s]">View My Work</a>
+    <section id="hero" className="h-full items-center justify-center mx-auto max-w-2xl mt-25 mb-25">
+      <img src={imgCover} alt="cover" className=' w-full h-40 rounded-2xl object-cover overflow-hidden mb-15 animate-delay [--delay:0s]'/>
+      <h1 className="text-2xl font-bold animate-delay [--delay:0.2s]">Hi, I'm Faza Tegar Balintra</h1>
+      <p className="text-lg mt-4 animate-delay [--delay:0.5s]">A Full Stack Developer with a passion for Web Technologies.</p>
+      <button className=' bg-white text-black mt-6 px-6 py-2 rounded-lg animate-delay [--delay:0.7s]'>
+      <a href="/projects">View My Work</a>
+      </button>
     </section>
   )
 }
