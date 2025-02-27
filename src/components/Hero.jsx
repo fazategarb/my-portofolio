@@ -3,7 +3,7 @@ import imgCover from '../assets/cover.jpg';
 
 const Hero = () => {
   return (
-    <section id="hero" className="h-full items-center justify-center mx-auto max-w-2xl mt-20 mb-20">
+    <section id="hero" className="px-5 h-full items-center justify-center mx-auto max-w-2xl pt-20 mb-20">
       
       {/* image cover */}
       <img src={imgCover} alt="cover" className=' w-full h-50 rounded-2xl object-cover overflow-hidden mb-15 animate-delay [--delay:0s]'/>

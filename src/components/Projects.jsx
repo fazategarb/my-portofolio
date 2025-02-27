@@ -6,7 +6,7 @@ const Projects = () => {
             { title: "Portfolio", description: "React + Vite + Tailwind", link: "#" },
         ];  
     return (
-        <section id="projects" className="p-10 bg-gray-100 mx-auto max-w-2xl">
+        <section id="projects" className="p-10 bg-gray-100 mx-auto max-w-2xl scroll-smooth">
             <h2 className="text-3xl font-bold text-center text-blue-500 underline">Projects</h2>
             <div className="grid md:grid-cols-2 gap-6 mt-6">
                 {projects.map((project, index) => (
