@@ -5,8 +5,8 @@ import Footer from '../components/Footer'
 const Projects = () => {
   return (
     <>
-    <NavBar/>
-    <Footer/>
+        <NavBar/>
+        <Footer/>
     </>
   )
 }
