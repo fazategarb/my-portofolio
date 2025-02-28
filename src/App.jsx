@@ -1,18 +1,16 @@
 import React from 'react'
-import NavBar from './components/NavBar'
-import Hero from './components/Hero'
-import Projects from './components/Projects'
-import Contact from './components/Contact'
-import Footer from './components/Footer'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
 function App() {
   return (
     <>
-      <NavBar/>
-      <Hero/>
-      <Projects/>
-      <Contact/>
-      <Footer/>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/experience" element={<Home />} />
+        <Route path="/project" element={<Home />} />
+      </Routes>
+    </Router>
     </>
   )
 }
