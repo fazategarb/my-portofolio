@@ -7,16 +7,14 @@ import Error from './components/Error'
 
 function App() {
   return (
-    <>
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/experience" element={<Experience />} />
+        <Route path="/work" element={<Experience />} />
         <Route path="/project" element={<Projects />} />
         <Route path="*" element={<Error/>}/>
       </Routes>
     </Router>
-    </>
   )
 }
 
