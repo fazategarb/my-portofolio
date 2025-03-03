@@ -3,10 +3,9 @@ import LoadingScreen from './components/LoadingScreen'
 import MobileMenu from './components/MobileMenu'
 import Home from './components/pages/Home'
 import About from './components/pages/About'
-// import Experience from './components/pages/Experience'
-// import Projects from './components/pages/Projects'
-// import Error from './components/Error'
+import Projects from './components/pages/Projects'
 import NavBar from './components/NavBar'
+import Footer from './components/Footer'
 
 function App() {
   const [isLoaded, setIsLoaded] = useState(false)
@@ -23,6 +22,8 @@ function App() {
         <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
         <Home/>
         <About/>
+        <Projects/>
+        <Footer/>
       </>
     )}
     </>
