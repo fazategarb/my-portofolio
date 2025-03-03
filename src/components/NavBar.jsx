@@ -7,12 +7,12 @@ const NavBar = ({menuOpen, setMenuOpen}) => {
   }, [menuOpen])
 
   return (
-    <nav className="fixed top-0 w-full z-40 bg-[#161a1d] backdrop-blur-lg">
+    <nav className="fixed top-0 w-full z-40 bg-[#161a1d]">
       <div className="max-w-3xl mx-auto px-4">
         <div className="flex justify-between items-center h-16">
 
           {/* fazxie :> */}
-          <a href="/" className="md:text-2xl font-bold text-white sm:text-xl">
+          <a href="/" className="text-xl font-bold text-white md:text-2xl">
             fazxie<span className="text-orange-200">.</span>
           </a>
 
