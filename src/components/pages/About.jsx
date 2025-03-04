@@ -50,7 +50,7 @@ const About = () => {
                 </h2>
 
                 {/* Description */}
-                <div className="rounded-xl p-8 border border-white/10 hover:-translate-y-1 transition-all">
+                <div className="rounded-xl p-8 border border-white/10 hover:-translate-y-1 transition-all hover:shadow-[0_0_15px_rgba(252,175,81,0.1)]">
                     <p className="text-gray-300 mb-6 text-lg">
                         Hi, I'm Faza Tegar Balintra 😄. A passionate developer, 
                         specializing in website applications. I'm {age} years old and live in Indonesia, 
@@ -64,7 +64,7 @@ const About = () => {
                         .map((category, index) => (
                             <motion.div 
                                 key={index} 
-                                className="rounded-xl p-6 border border-white/10 hover:-translate-y-1 transition-all"
+                                className="rounded-xl p-6 border border-white/10 hover:-translate-y-1 transition-all hover:shadow-[0_0_15px_rgba(252,175,81,0.1)]"
                                 variants={fadeIn} initial="hidden" whileInView="visible" viewport={{ once: true }}
                             >
                                 <h3 className="text-2xl font-bold mb-4 text-gray-300">{category.title}</h3>
@@ -87,7 +87,7 @@ const About = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
                     {/* Education */}
                     <motion.div 
-                        className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 transition-all"
+                        className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 transition-all hover:shadow-[0_0_15px_rgba(252,175,81,0.1)]"
                         variants={fadeIn} initial="hidden" whileInView="visible" viewport={{ once: true }}
                     >
                         <h3 className="text-lg font-bold mb-4">🏫 Education</h3>
@@ -104,7 +104,7 @@ const About = () => {
 
                     {/* Work Experience */}
                     <motion.div 
-                        className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 transition-all"
+                        className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 transition-all hover:shadow-[0_0_15px_rgba(252,175,81,0.1)]"
                         variants={fadeIn} initial="hidden" whileInView="visible" viewport={{ once: true }}
                     >
                         <h3 className="text-lg font-bold mb-4">💼 Work Experience</h3>
