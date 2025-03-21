@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { FaReact, FaNodeJs, FaVuejs, FaLaravel } from "react-icons/fa";
 import { SiTailwindcss, SiTypescript, SiMysql, SiPython } from "react-icons/si";
+import { FaJava } from 'react-icons/fa6';
 
 const About = () => {
     const birthYear = 2004; 
@@ -20,6 +21,7 @@ const About = () => {
         { name: 'Python', icon: <SiPython /> },
         { name: 'MySQL', icon: <SiMysql /> },
         { name: 'Laravel', icon: <FaLaravel /> },
+        { name: 'Java', icon: <FaJava/>}
     ];
 
     const experiences = [
@@ -29,6 +31,10 @@ const About = () => {
         },
         {
             title: "Intern at Lorem Ipsum Contributed Company (2020)",
+            description: "Developed and maintained Cloud service.",
+        },
+        {
+            title: "Officialy at Lorem Ipsum Contributed Company (2020)",
             description: "Developed and maintained Cloud service.",
         }
     ];
